@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { IoCloseOutline } from "react-icons/io5";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

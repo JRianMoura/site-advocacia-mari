@@ -47,7 +47,7 @@ const Home = () => {
               className="hidden xl:flex fixed bottom-0"
             >
               <Image
-                src={"/assets/home/img.jpg"}
+                src={"/assets/home/img.png"}
                 alt=""
                 width={864}
                 height={650}
