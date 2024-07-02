@@ -8,6 +8,9 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 import MobileNav from "./MobileNav";
 import Nav from "./Nav";
+import Socials from "./Socials";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
 const Header = () => {
   const [mobileNav, setMobileNav] = useState(false);
@@ -16,12 +19,20 @@ const Header = () => {
     <header className="pb-6 xl:pb-[50px] fixed z-40 w-full bg-accent-100 xl:bg-transparent">
       <div className="bg-secondary-100 mb-6 xl:mb-[50px] xl:h-[50px] py-4 xl:py-0">
         <div className="container mx-auto h-full">
-          <div className="flex items-center justify-between ">
+          <div className="flex items-center justify-between h-full">
             <div className="flex flex-col lg:flex-row items-center h-full gap-2 xl:gap-6 w-full justify-between xl:w-auto xl:justify-normal">
-              <div>Telefone</div>
-              <div>Email</div>
+              <div className="flex items-center gap-2 text-white">
+                <FaPhoneAlt />
+                <span>61 99123-4567</span>
+              </div>
+              <div className="flex items-center gap-2 text-white">
+                <IoMdMail />
+                <span>marianabatistuzzo@gmail.com</span>
+              </div>
             </div>
-            <div>Sociais</div>
+            <div className="hidden xl:block">
+              <Socials containerStyles="flex gap-6 text-white" />
+            </div>
           </div>
         </div>
       </div>

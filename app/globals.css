@@ -17,7 +17,7 @@
   }
 
   .h1 {
-    @apply text-[64px] leading-none xl: text-[72px] xl:leading-[76px];
+    @apply text-[64px] leading-none;
   }
 
   .h2 {
