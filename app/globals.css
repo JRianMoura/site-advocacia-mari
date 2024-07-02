@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-secondary bg-secondary text-base text-black;
+    @apply font-secondary bg-white text-base text-black;
   }
 
   h1,
@@ -55,5 +55,5 @@
 
 .input,
 .textarea {
-  @apply outline-none ring-1 ring-accent/80 font-primary text-sm uppercase text-primary;
+  @apply outline-none ring-1 ring-accent/80 font-primary text-sm uppercase text-black;
 }
